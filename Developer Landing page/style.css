@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-box{
+    background-image: url(./images/developer.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-container{
+    color: aliceblue;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+   
+}
+.text-container .text h2{
+font-size: 80px;
+}
+.text span{
+    font-size: 30px;
+    font-weight: 200;
+}
+.full-stack{
+    font-size: 40px;
+} 
+.black-box{
+    background-color: black;
+    
+}
+.text-work{
+    color: aliceblue;
+    max-width: 900px;
+    margin: 0 auto;
+    letter-spacing: 8px;
+    
+}
+.text-work h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+.text-work h2 span{
+    font-size: 60px;
+    font-weight:bold;
+}
+.whitebox{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    
+    max-width: 1100px; 
+    margin: 50px auto;
+
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.container-white{
+    align-items: center;
+    justify-content: center;
+    transition: 0..5s ease-in-out;
+    max-width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 5px 8px 10px rgb(214, 173, 168);
+    
+}
+.container-white h2 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container-white p {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container-white:hover{
+transform: scale(1.06);
+box-shadow: 5px 8px 10px rgb(229, 168, 160);
+}
+.bottom{
+    display: flex;
+
+}
+
+.container-brown{
+    background-color: rgb(108, 108, 162);
+    border: 1px solid yellow;
+    width: 50%;
+    padding: 50px;
+}
+.about-gray{
+    background-color: #7c1f1f;
+    border: 1px solid yellow;
+    width: 50%;
+    padding: 50px;
+}
+.text-white{
+    color: white;
+    margin: 20px;
+}
+ .text-bold{
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+ }
+ .link{
+    font-size: 50px;
+    display:flex;
+    letter-spacing: 30px;
+    margin-left: 20px;
+   
+ }
+ .git{
+    color: black;;
+ }
+ .linkdin{
+    color: black;;
+ }
+ .email{
+    color: black;;
+ }
+ .footer{
+    background-color: black;
+    padding: 20px;
+    
+ }
+ .footer-p{
+    
+  
+ }
+ .text-footer{
+    display: flex;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .pooter-n{
+    font-size: 15px;
+ }
