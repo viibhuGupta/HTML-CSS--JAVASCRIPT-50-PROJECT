@@ -1,4 +1,6 @@
 ============================ Font Awsome ==================
 <script src="https://kit.fontawesome.com/a5afd6b58b.js" crossorigin="anonymous"></script>
 
+<script src="https://cdn.tailwindcss.com"></script>
+
 
