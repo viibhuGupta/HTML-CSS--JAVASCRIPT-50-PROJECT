@@ -1,0 +1,138 @@
+@import "./color.scss";
+.home{
+    height: 60vh;
+    width: 100vw;
+    background-color: $second;
+    border-radius: 0 0 200px 200px ;
+    
+    
+    >main{
+        position: absolute;
+        color: $first;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        height: 50%;
+        width: 100%;
+        
+
+       
+
+        >h1{
+            font: 400 6rem $text1 ;
+        }
+        >p{
+            font: 900 1rem $text1;
+        }
+        
+    }
+
+    &::before{
+        position: absolute;
+        background:no-repeat center/auto url("../assets/1.png") ;
+        content: "";
+        height: 60vh;
+        width: 100%;
+        filter: blur(4px);
+        border-radius: 0 0 200px 200px ;
+
+    }  
+}
+
+.home2{
+    height: 100%;
+    width: 100%;
+    background-color: $second;
+    
+    margin-top: -160px;
+    padding: 200px;
+    display: flex;
+    
+    >img{
+        width: 30%;
+
+        animation: upimg 0.7s linear infinite alternate;
+    }
+    
+    >.text {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        >p{
+            color: $first;
+        font: 100 1rem $text2;
+        word-spacing: .3rem;
+        letter-spacing: 2px;
+        
+        }
+    }
+    @keyframes upimg {
+        to{
+            transform: translateY(-12px);
+        }
+    }
+
+ }
+
+ .home3{
+    height: 100vh;
+    width: 100%;
+    background-color: $second;
+    
+
+    >div{
+height: 80vh;
+width: 60%;
+background-color: $first;
+border-radius: 0 200px 200px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+>h1{
+    text-transform: uppercase;
+    
+}
+>p{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font: 300 19px italic;
+    padding: 40px;
+}
+
+    }
+}
+
+.home4{
+    background-color: $second;
+height: 100vh;
+width: 100%;
+display: flex;
+ 
+.brands{
+    background-color: $third;
+    height: 80vh;
+    width: 65%;
+    margin-left: 35%;
+    border-radius: 200px 0 0 200px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+> div{
+    display: flex;
+}
+    }
+}
+}
+ 
+

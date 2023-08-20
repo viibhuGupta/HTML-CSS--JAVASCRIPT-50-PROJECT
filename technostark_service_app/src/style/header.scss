@@ -1,0 +1,35 @@
+@import "./color.scss";
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    scroll-behavior: smooth;
+
+} 
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px ;
+
+    >h1{
+        margin-left: 2rem;
+    }
+    >main{
+        
+
+        >a{
+            margin: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+
+            &:hover{
+                color: $second;
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
