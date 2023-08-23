@@ -11,6 +11,7 @@ function App() {
 
   const [courses , setCourses] = useState(null);
   const [ loading , setLoading] = useState(true);
+  const [ category , setCategory ] = useState(filterData[0].title); // filtring Data using title for All
 
   // fetching api Data
 
@@ -44,19 +45,31 @@ function App() {
 
 
   return (
-    <div className=" bg-bgDark2 w-[full] h-[full] ">
+
+    <div className="">
+
+         <div className=" bg-bgDark2 h-[full] ">
 
       <Navbar/>
+       
+       <div className=" ">
 
-      <Filter
+      <Filter 
       filterData={filterData}
+
+      category={category}
+      setCategory={setCategory}
       />
+
+       </div>
 
       <div>
         {
-          loading ? (<Spinear/>) : (<Cards courses={courses}/>)
+          loading ? (<Spinear/>) : (<Cards courses={courses} category={category} />)
         }
       </div>
+
+    </div>
     </div>
   );
 }

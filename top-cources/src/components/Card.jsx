@@ -65,7 +65,14 @@ const Crad = (props) => {
 
       <div className="text-white flex flex-col m-4  ">
         <p className='font-bold mt-5 leading-6 w-[200px]'>{course.title}</p>
-        <p className=' mt-5 mb-6 text-sm font-sans'>{course.description}</p>
+        <p className=' mt-5 mb-6 text-sm font-sans'>
+          {
+            course.description.length > 100 ? 
+            (course.description.substr(0 , 150)) + "..." 
+            : 
+            (course.description)
+          }
+        </p>
 
       </div>
       

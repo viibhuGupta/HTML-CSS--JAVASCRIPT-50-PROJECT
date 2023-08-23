@@ -7,11 +7,15 @@ const Cards = (props) => {
     //  converting the Api Data into Single Array 
  
     let courses = props.courses;
+    let category = props.category;
+
+
 
    const [likedCources , setLikedCources ] = useState([]);
 
     function getCourses (){
-        let allCourses = [];
+        if (category === "All"){
+          let allCourses = [];
 
         Object.values(courses).forEach(array =>{
             array.forEach(coursesData =>{
@@ -20,6 +24,13 @@ const Cards = (props) => {
         })
 
         return allCourses;
+        }
+
+        else{
+
+          //  sirf category Specific show karo 
+          return courses[category];
+        }
     };
 
 
