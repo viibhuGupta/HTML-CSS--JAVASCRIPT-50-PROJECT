@@ -2,7 +2,7 @@
 
 1. <h3>Developer Landing Page Using Basic Html css</h3>
    
-https://github.com/viibhuGupta/NextJs-React-JavaScript-50-PROJECT/assets/108029219/648c7188-46d8-4763-a465-79aa28352266
+https://github.com/viibhuGupta/NextJs-React-JavaScript-50-PROJECT/assets/108029219/648c7188-46d8-4763-a465-79aa28352266 
 
 2. <h3>Eid Wish Website (Using Html Css Js )</h3>
    
