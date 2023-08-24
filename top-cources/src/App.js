@@ -50,6 +50,8 @@ function App() {
 
          <div className=" bg-bgDark2 h-[full] ">
 
+          
+
       <Navbar/>
        
        <div className=" ">

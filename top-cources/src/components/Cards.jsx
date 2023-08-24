@@ -47,7 +47,11 @@ const Cards = (props) => {
             />
         ))
       }
+
+      
     </div>
+
+    
   )
 };
 
