@@ -10,14 +10,14 @@ function Card  ( {id , name , image , info ,  price ,removeTour}  )  {
     function readmoreHandler() {
         setReadmore(!readmore);
     }
-    
+
 
 
   return (
-    <div className='card'>
+    <div className=''>
 
-         
-        <img  src={image} className='image' alt='imagetour' ></img>
+
+        <img className='w-[250px] h-[300px] '    src={image}  alt='imagetour' ></img>
 
         <div className="tour-info">
             <div className="tour-deatils">
@@ -36,10 +36,10 @@ function Card  ( {id , name , image , info ,  price ,removeTour}  )  {
 
        <button className="btn-red" onClick={ () => removeTour (id)} >
         Not Interested
-        </button> 
+        </button>
 
 
-      
+
     </div>
   )
 }

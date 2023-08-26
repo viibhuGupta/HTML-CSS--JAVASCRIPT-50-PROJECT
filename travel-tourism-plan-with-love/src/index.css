@@ -8,25 +8,4 @@
     box-sizing: border-box;
 }
 
-body{
-    
-    
-}
-
-.heading{
-    color: dark;
-    font-size: 2rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin-top: 2rem;
-    width: 30rem;
-    border: dotted 2px ;
-    
-
-    
-}
 
