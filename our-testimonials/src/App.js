@@ -10,11 +10,11 @@ function App() {
     <div  className="text-center  ">
      <div>
      <h1 className="text-4xl font-bold    ">Our Testimonials</h1>
-      <div className="bg-violet-200 h-[4px] w-[9rem] flex flex-col justify-center text-center mt-1">
+      <div className="bg-violet-400 h-[4px] w-[1/5] mt-1">
      </div>
 
 
-      </div>
+      </div >
          <Testimonial reviews={reviews} />
     </div>
    </div>
