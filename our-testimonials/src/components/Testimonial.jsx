@@ -1,26 +1,46 @@
 import React from 'react';
 import Card from './Card';
+import { useState } from 'react';
 
 import { FiChevronLeft , FiChevronRight} from "react-icons/fi";
 
 
 const Testimonial = (props) => {
+    let reviews = props.reviews;
+
+    const [ index , setIndex ] = useState(0);
 
   function leftShiftHandler (){
-    //  47:00
+    if (index - 1 < 0) {
+      setIndex (reviews.length - 1);
+    }
+    else {
+      setIndex (index - 1);
+    }
   }
 
   function rightShiftHandler() {
+   if (index + 1 >= reviews.length) {
+    setIndex(0);
+   }
 
+   else{
+   setIndex(index + 1);
+   }
   }
 
+  function surPriseMe() {
+     let randomIndex = Math.floor(Math.random() * reviews.length);
+      setIndex(randomIndex);
+   }
 
 
-      let reviews = props.reviews;
+
+      // const reviews = props.reviews;
 
   return (
-    <div className='w-full h-full'>
-      <Card reviews= {reviews[0]} ></Card>
+    <div className='w-[30vw] md-[700px] bg-white flex flex-col justify-center item-center mt-10 p-10 transaction-all duration-700  '>
+      <Card reviews= {reviews[index]} ></Card>
 
       <div>
 
@@ -40,7 +60,9 @@ const Testimonial = (props) => {
 
 
         <div>
-          <button className=' bg-violet-400 w-[140px] h-9 rounded-md text-white font-bold z-[-15] hover:bg-violet-500 '>
+          <button className=' bg-violet-400 w-[140px] h-9 rounded-md text-white font-bold z-[-15] hover:bg-violet-500 '
+          onClick={surPriseMe}
+          >
             Surprise Me
           </button>
         </div>
