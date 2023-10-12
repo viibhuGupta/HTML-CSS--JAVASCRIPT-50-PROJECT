@@ -1,0 +1,104 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.Navbar{
+      /* background-color: rgb(237, 238, 238); */
+      padding: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25rem;
+      width: 100%;
+
+
+}
+.logo img{
+      margin-top: 5px;
+
+}
+
+ul{
+      display: flex;
+      list-style: none;
+      gap: 4rem;
+
+}
+ul li{
+      font-size: large;
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: capitalize;
+
+}
+.login{
+      width: 110px;
+      padding: 5px;
+      background-color: rgb(161, 41, 41);
+      font-weight: bold;
+      color: white;
+      font-size: large;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.hero-shooes{
+      margin-left: 3rem;
+
+}
+.hero-shooes img{
+      width: 95%;
+      margin-top: 2rem;
+
+}
+.body{
+      display: flex;
+      margin: 90px;
+      justify-content: center;
+}
+.left-hero{
+
+      width: 40%;
+      height: full;
+      flex: none;
+}
+.title{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+
+}
+p{
+      margin-top: 2rem;
+      font-size: larger;
+}
+.Buy{
+      margin-top: 2rem;
+
+}
+.Buy button{
+      width: 120px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-right: rem;
+      margin-right: 30px;
+
+}
+.red-button{
+      background-color: red;
+      font-size: 15px;
+
+}
+.online-res{
+      margin-top: 3rem;
+}
+.online-res p{
+      font-size: larger;
+}
+.online-res img{
+      margin-top: 0.5rem;
+      margin-right: 2rem;
+}
+

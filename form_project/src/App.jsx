@@ -5,7 +5,7 @@ function App() {
   function changeFirstNameHAndeler (event) {
     console.log(event.target.value);
 
-    // intermi 15:00
+    // intermi 30:00
   }
 
 
@@ -24,7 +24,7 @@ function App() {
        <input type="text"
         placeholder='Last Name'
         onChange={changeLastNameHAndeler}
-        /> 
+        />
       </form>
     </div>
   );
