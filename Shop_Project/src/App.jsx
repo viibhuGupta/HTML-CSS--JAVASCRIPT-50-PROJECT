@@ -55,6 +55,10 @@ const App = () => {
                         <img src="/Images/hero-image.png" alt="" />
                        </div>
 
+
+
+                       
+
                   </div>
             </body>
       </div>
@@ -63,3 +67,4 @@ const App = () => {
 };
 
 export default App;
+
